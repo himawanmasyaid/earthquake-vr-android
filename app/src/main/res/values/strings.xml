@@ -1,0 +1,17 @@
+<resources>
+    <string name="app_name">Earthquake Virtual Reality</string>
+
+    <string name="search_hint">Cari nama ruang/tempat</string>
+    <string name="under_construction">Dalam tahap pengembangan</string>
+
+    <string name="empty_search">Pencarian Kosong</string>
+    <string name="empty_search_msg">Maaf, tidak ditemukan hasil. Silahkan periksa kembali kata kunci pencarianmu.</string>
+    <string name="disconnect">Tidak Ada Internet</string>
+    <string name="disconnect_msg">Maaf, sepertinya internetmu sedang bermasalah. Silahkan cek data atau wifi yang kamu gunakan.</string>
+    <string name="server_error">Terjadi Kesalahan Server</string>
+    <string name="server_error_msg">Mohon maaf atas ketidaknyamanan ini, saat ini server sedang dalam gangguan. Mohon kembali lagi nanti, terimakasih.</string>
+
+    <string name="lorem_title">Simulasi Gempa Ketika di Kamar</string>
+    <string name="lorem_description">Anda dapat merasakan simulasi gempa melalui VR yang berada dalam ruangan rumah seperti di Kamar/</string>
+
+</resources>

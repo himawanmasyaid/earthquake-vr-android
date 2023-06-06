@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/navigation_main"
+    app:startDestination="@+id/navigation_home">
+
+    <fragment
+        android:id="@+id/navigation_home"
+        android:name="com.siklusdev.gempavr.ui.home.HomeFragment"
+        tools:layout="@layout/fragment_home">
+
+        <action
+            android:id="@+id/action_to_search"
+            app:destination="@id/search" />
+
+        <action
+            android:id="@+id/action_to_video_detail"
+            app:destination="@id/video_detail" />
+
+        <action
+            android:id="@+id/action_to_category"
+            app:destination="@id/category" />
+
+    </fragment>
+
+    <fragment
+        android:id="@+id/search"
+        android:name="com.siklusdev.gempavr.ui.search.SearchFragment"
+        tools:layout="@layout/fragment_search">
+
+        <action
+            android:id="@+id/action_to_video_detail"
+            app:destination="@id/video_detail" />
+
+    </fragment>
+
+    <fragment
+        android:id="@+id/video_detail"
+        android:name="com.siklusdev.gempavr.ui.video.VideoDetailFragment"
+        tools:layout="@layout/fragment_video_detail">
+
+        <action
+            android:id="@+id/action_to_play_vr"
+            app:destination="@id/play_vr" />
+
+        <argument
+            android:name="id"
+            app:argType="integer" />
+
+    </fragment>
+
+    <fragment
+        android:id="@+id/category"
+        android:name="com.siklusdev.gempavr.ui.category.CategoryFragment"
+        tools:layout="@layout/fragment_category">
+
+        <argument
+            android:name="id"
+            app:argType="integer" />
+
+        <action
+            android:id="@+id/action_to_video_detail"
+            app:destination="@id/video_detail" />
+
+    </fragment>
+
+    <activity
+        android:id="@+id/play_vr"
+        android:name="com.siklusdev.gempavr.ui.vr.VirtualRealityActivity"
+        tools:layout="@layout/activity_virtual_reality">
+
+        <argument
+            android:name="id"
+            app:argType="integer" />
+
+    </activity>
+
+</navigation>

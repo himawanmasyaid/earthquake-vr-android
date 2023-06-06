@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#FE5631</color>
+    <color name="colorPrimaryDark">#FF481F</color>
+    <color name="colorPrimaryLight">#FF7759</color>
+    <color name="colorAccent">#050B18</color>
+
+    <color name="background_primary">#0E0F0F</color>
+    <color name="background_base">#F7F9F8</color>
+    <color name="background_secondary">#1F2430</color>
+
+    <color name="gray_1">#F7F9FA</color>
+    <color name="gray_2">#F2F4F5</color>
+    <color name="gray_3">#E3E5E5</color>
+    <color name="gray_4">#CDCFD0</color>
+    <color name="gray_5">#B4B6B8</color>
+
+    <color name="black_1">#050B18</color>
+    <color name="black_2">#1F2430</color>
+    <color name="black_3">#363B45</color>
+    <color name="black_4">#52555B</color>
+
+    <color name="green">#23C16B</color>
+    <color name="red">#FF5247</color>
+    <color name="yellow">#FFB323</color>
+    <color name="blue">#0078FF</color>
+
+    <color name="green_dark">#00A86B</color>
+    <color name="red_dark">#F63B2F</color>
+    <color name="yellow_dark">#F6A500</color>
+    <color name="blue_dark">#0067DB</color>
+
+    <color name="text_main">#ffffff</color>
+
+    <color name="btn_primary">#FE5631</color>
+    <color name="btn_disable">#050B18</color>
+    <color name="btn_black">#CDCFD0</color>
+
+
+
+</resources>
